@@ -27,6 +27,8 @@ html{
     margin: 0 auto;
 }
 
+
+/*-------- HEADINGS  ---------*/
 h1{
     margin: 0;
     color: #fff;
@@ -37,6 +39,8 @@ h1{
     word-spacing: 4px; 
 }
 
+
+/*-------- BUTTONS  ---------*/
 .btn:link,
 .btn:visited {
    display: inline-block;
@@ -79,11 +83,18 @@ h1{
     border: 1px solid #e67e22; 
 }
 
+
+
 /*_____________________________________________*/
 /* HEADER   */ 
 /*_____________________________________________*/
 
-
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
 
 .hero-text-box{
     position: absolute;
@@ -94,10 +105,28 @@ h1{
 } 
 
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
 }
 
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:hover{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
