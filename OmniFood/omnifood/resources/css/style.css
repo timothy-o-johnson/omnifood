@@ -56,7 +56,7 @@ h2{
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
-}
+} 
 
 h2:after{
     display: block;
@@ -93,10 +93,11 @@ h3 {
 /*-------- ICONS  ---------*/
 
 .icon-big {
-    font-size: 400%;
+    font-size: 350%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 /*-------- BUTTONS  ---------*/
@@ -196,4 +197,50 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
+}
+
+/*_____________________________________________*/
+/* SECTION   */ 
+/*_____________________________________________*/
+
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
+
+/*_____________________________________________*/
+/* MEALS   */ 
+/*_____________________________________________*/
+
+.section-meals{
+    padding: 0px;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.05);
 }
