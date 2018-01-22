@@ -1,4 +1,4 @@
-/* Orange Color #e67e22 */
+ /* Orange Color #e67e22 */
 
 /*_____________________________________________*/
 /* BASIC SET UP   */ 
@@ -173,13 +173,13 @@ header {
     transform: translate(-50%, -50%)
 } 
 
-
 .logo {
     height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
+
 .main-nav {
     float: right;
     list-style: none;
@@ -306,4 +306,27 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+
+/*_____________________________________________*/
+/* CITIES   */ 
+/*_____________________________________________*/
+.section-cities{
+    background-color: #fff;
+    padding: 0;
+}
+
+.cities-box{
+    margin-right: 15px;  
+}
+
+.section-cities img{
+    width: 90%;
+    /height: auto;
+   / transform: scale(1.15);    
+}
+
+.section-cities h3{
+    margin-top: 25px;
 }
