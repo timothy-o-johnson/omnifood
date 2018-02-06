@@ -46,7 +46,11 @@
     
     .row,
     .hero-text-box { padding: 0 4%; }
-    .col {width: 100%;}
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
     .main-nav { display: none; }
     
     h1 { font-size: 180%;}
@@ -57,22 +61,24 @@
         margin-left: 0%;
     }
     
+    .steps-box:first-child {text-align: center;}
+    
     .works-step div {
         height: 40px;
         width: 40px;
-        border-radius: 50%;
-        display: inline-block;
-        text-align: center;
         margin-right: 25px;
-        float: left;
-        padding: 5px;
+        padding: 4px;
+        font-size: 120%
     }
-    .works-step { margin-bottom: 40px; }
-    .works-step:last-of-type { margin-bottom: 60px;} 
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px;} 
 }
 
 
 /* Small phones: from 0 - 480px */
 @media only screen and (max-width: 480px) {
-    
-}
+    section { padding: 25px 0; }
+        
+    .contact-form {width: 100%;}
+    }
