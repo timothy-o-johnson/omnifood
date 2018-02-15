@@ -223,7 +223,7 @@ header {
 }
 
 .logo-black{
-     display: none;
+    display: none;
     height: 50px;
     width: auto;
     float: left;
@@ -270,13 +270,14 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, .98);
     box-shadow: 0 2px 2px #efefef;
+    z-index: 99999;
 }
 
 
-.main-nav {margin-top: 18px}
+.sticky .main-nav {margin-top: 18px}
 
-.sticky, .main-nav li a:link,
-.sticky, .main-nav li a:visited{
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
     padding: 16px 0;
     color: #555;
 }
