@@ -402,23 +402,21 @@ header {
 /*_____________________________________________*/
 .section-cities{
     background-color: #fff;
-    padding: 0;
+    /padding: 0;
 }
 
 .cities-box{
     padding: 1%;
-    /margin-right: 15px;  
 }
 
 .cities-box img{
     width: 100%;
     height: auto;
-   /transform: scale(1.15);
     margin-bottom: 15px;
 }
 
 .section-cities h3{
-  /  margin-top: 25px;
+    margin-top: 25px;
 }
 
 .city-feature{
